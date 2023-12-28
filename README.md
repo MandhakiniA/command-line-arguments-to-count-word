@@ -28,12 +28,13 @@ Run the program to determine the number of words in the file created.
 Developed by : A.Mandhakini
 Registered number : 23010115
 ```
+~~~
 import sys
 file= open(sys.argv[1])
 data=file.read()
 words=data.split()
 print("Total Words:",len(words))
-
+~~~
 ### OUTPUT:
 ![image](https://github.com/MandhakiniA/command-line-arguments-to-count-word/assets/150005194/53b2b8da-e55f-4a02-aeaf-589f692b4b94)
 ![image](https://github.com/MandhakiniA/command-line-arguments-to-count-word/assets/150005194/c32d7aef-e4c8-421d-b2ce-b851f470e2c4)
